@@ -653,7 +653,7 @@ def getMysqlConfig():
 		else:
 			break
 
-	config = configparser.ConfigParser()
+	config = ConfigParser.ConfigParser()
 	config.read(cnf)
 	return config, cnf
 
